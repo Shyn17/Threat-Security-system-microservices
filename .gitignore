@@ -1,0 +1,17 @@
+# ── Secrets – NEVER commit these ─────────────────────────────
+.env
+
+# ── Maven build output ────────────────────────────────────────
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# ── IDE / Editor ──────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.class
+*.log
+
+# ── OS generated ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
